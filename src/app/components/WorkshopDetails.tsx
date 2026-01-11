@@ -1,4 +1,4 @@
-import imgWorkshop21FlattenedFlattened from "../../assets/workshop.png";
+import imgWorkshop21FlattenedFlattened from "../../assets/workshop2.png";
 
 export function WorkshopDetails() {
   const modules = [
