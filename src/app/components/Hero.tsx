@@ -1,4 +1,4 @@
-import imgImage167 from "../../assets/6153791bd042a5e53dde29b9a09660d48b09c024.png";
+import imgImage167 from "../../assets/logo_small.png";
 
 export function Hero() {
   return (

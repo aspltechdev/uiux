@@ -1,4 +1,4 @@
-import imgAuroLakshmanan2 from "../../assets/b1bd1ef12d511d42be00b38ff116c1ddb9ecbd09.png";
+import imgAuroLakshmanan2 from "../../assets/Auro.png";
 
 export function Footer() {
   return (

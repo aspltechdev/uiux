@@ -1,5 +1,5 @@
-const imgAuroLakshmanan2 = "/auro_footer.png";
-const imgImage168 = "/community_check.png";
+import imgAuroLakshmanan2 from "../../assets/Auro.png";
+import imgImage168 from "../../assets/community_check.png";
 
 export function CoachIntro() {
   return (
@@ -12,7 +12,7 @@ export function CoachIntro() {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-br from-pink-600 to-purple-700 rounded-3xl transform rotate-3"></div>
               <img
-                src="/Auro.png?v=1"
+                src={imgAuroLakshmanan2}
                 alt="Auro Lakshmanan"
                 className="relative rounded-3xl w-full object-cover shadow-2xl transform -rotate-1 hover:rotate-0 transition-transform duration-300"
               />

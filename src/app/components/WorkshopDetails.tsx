@@ -1,4 +1,4 @@
-const imgWorkshop21FlattenedFlattened = "/workshop.png";
+import imgWorkshop21FlattenedFlattened from "../../assets/workshop.png";
 
 export function WorkshopDetails() {
   const modules = [
