@@ -1,0 +1,1826 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI/UX Interview Cracking Workshop - Auro Lakshmanan</title>
+    <meta name="description" content="Transform your UX career in 30 days. Join 12,000+ successful students. Learn portfolio building, interview skills, and get job referrals.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Baloo+Thambi+2:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #000;
+            color: #fff;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        .tamil-font {
+            font-family: 'Baloo Thambi 2', cursive;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+
+        .logo {
+            width: 96px;
+            height: 96px;
+            margin: 0 auto 2rem;
+        }
+
+        .hero-title-box {
+            background: linear-gradient(to right, #9333ea, #ec4899);
+            border-radius: 0.5rem;
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .hero-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .hero-tamil {
+            border: 2px solid #f472b6;
+            border-radius: 1rem;
+            padding: 2rem;
+            background: linear-gradient(to bottom right, rgba(88, 28, 135, 0.3), rgba(157, 23, 77, 0.3));
+            margin-bottom: 2rem;
+        }
+
+        .tamil-headline {
+            font-size: 2rem;
+            line-height: 1.2;
+            margin-bottom: 1rem;
+        }
+
+        .subheadline {
+            font-size: 1.125rem;
+            margin-top: 2rem;
+            color: #d1d5db;
+        }
+
+        .subheadline span {
+            display: block;
+            margin-top: 0.5rem;
+        }
+
+        .highlight-pink {
+            color: #f472b6;
+        }
+
+        .urgency-badge {
+            display: inline-block;
+            background: linear-gradient(to right, #eab308, #f97316);
+            padding: 0.75rem 1.5rem;
+            border-radius: 9999px;
+            margin-top: 1.5rem;
+            font-weight: 700;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.8; }
+        }
+
+        /* Coach Section */
+        .coach-section {
+            padding: 3rem 1rem;
+            background: #000;
+        }
+
+        .coach-grid {
+            display: grid;
+            gap: 2rem;
+            align-items: center;
+            margin-bottom: 3rem;
+        }
+
+        .coach-image-wrapper {
+            position: relative;
+        }
+
+        .coach-image {
+            width: 100%;
+            border-radius: 1.5rem;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+        }
+
+        .coach-info {
+            text-align: center;
+        }
+
+        .coach-name {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #ec4899;
+            margin-bottom: 0.5rem;
+        }
+
+        .coach-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .coach-subtitle {
+            font-size: 1rem;
+            color: #d1d5db;
+            margin-bottom: 1.5rem;
+        }
+
+        .quote-box {
+            background: linear-gradient(to right, rgba(219, 39, 119, 0.2), rgba(147, 51, 234, 0.2));
+            border: 1px solid rgba(236, 72, 153, 0.3);
+            border-radius: 0.75rem;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .quote-box p {
+            line-height: 1.75;
+        }
+
+        .highlight-yellow {
+            color: #facc15;
+            font-weight: 600;
+        }
+
+        .coach-badge {
+            background: rgba(107, 33, 168, 0.4);
+            border-radius: 0.75rem;
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        .coach-badge h3 {
+            font-size: 1.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .coach-badge p {
+            color: #facc15;
+            font-weight: 600;
+            font-size: 1.125rem;
+        }
+
+        .community-stats {
+            background: linear-gradient(to right, #6b21a8, #be185d);
+            border-radius: 1rem;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+
+        .stats-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+            text-align: center;
+        }
+
+        .stats-icon {
+            width: 64px;
+            height: 64px;
+        }
+
+        .stats-title {
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .stats-subtitle {
+            font-size: 1.25rem;
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        .stats-description {
+            color: #fde047;
+            margin-top: 1rem;
+        }
+
+        /* Workshop Details */
+        .workshop-section {
+            padding: 3rem 1rem;
+            background: linear-gradient(to bottom, #000, #581c87);
+        }
+
+        .section-title {
+            font-size: 2rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .section-description {
+            font-size: 1.125rem;
+            text-align: center;
+            color: #d1d5db;
+            max-width: 900px;
+            margin: 0 auto 3rem;
+        }
+
+        .workshop-image {
+            max-width: 700px;
+            width: 100%;
+            margin: 0 auto 3rem;
+            display: block;
+            border-radius: 1rem;
+            box-shadow: 0 0 60px rgba(219, 39, 119, 0.5);
+        }
+
+        .modules-grid {
+            display: grid;
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .module-card {
+            background: linear-gradient(to bottom right, #db2777, #7c3aed);
+            border-radius: 0.75rem;
+            padding: 1.5rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s;
+        }
+
+        .module-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+        }
+
+        .module-content {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .module-icon {
+            font-size: 2.5rem;
+            flex-shrink: 0;
+        }
+
+        .module-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .module-description {
+            font-size: 0.875rem;
+            color: rgba(255, 255, 255, 0.9);
+            line-height: 1.75;
+        }
+
+        /* Bonuses */
+        .bonus-section {
+            background: linear-gradient(to right, #ca8a04, #ea580c);
+            border-radius: 1rem;
+            padding: 2.5rem 2rem;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+        }
+
+        .bonus-title {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #fef3c7;
+            margin-bottom: 0.5rem;
+        }
+
+        .bonus-subtitle {
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: 500;
+            margin-bottom: 2rem;
+        }
+
+        .bonus-grid {
+            display: grid;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .bonus-item {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 0.5rem;
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .bonus-check {
+            font-size: 1.5rem;
+            flex-shrink: 0;
+        }
+
+        .bonus-text {
+            font-weight: 500;
+            font-size: 1rem;
+        }
+
+        .bonus-note {
+            text-align: center;
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 0.875rem;
+        }
+
+        .bonus-note span {
+            display: block;
+            margin-top: 0.5rem;
+            color: #fef3c7;
+            font-weight: 600;
+        }
+
+        /* Career Transformation */
+        .transformation-section {
+            padding: 3rem 1rem;
+            background: #000;
+        }
+
+        .center-circle {
+            width: 256px;
+            height: 256px;
+            margin: 0 auto 2rem;
+            border-radius: 50%;
+            background: linear-gradient(to bottom right, #facc15, #f97316);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+        }
+
+        .circle-inner {
+            width: 224px;
+            height: 224px;
+            border-radius: 50%;
+            background: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 1.5rem;
+        }
+
+        .circle-text {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #000;
+        }
+
+        .circle-subtext {
+            font-size: 0.875rem;
+            color: #4b5563;
+            margin-top: 0.5rem;
+        }
+
+        .pillars-grid {
+            display: grid;
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .pillar-card {
+            background: linear-gradient(to bottom right, #db2777, #7c3aed);
+            border-radius: 0.75rem;
+            padding: 2rem 1.5rem;
+            text-align: center;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+        }
+
+        .pillar-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .pillar-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+        }
+
+        .pillar-description {
+            font-size: 0.875rem;
+            color: rgba(255, 255, 255, 0.9);
+            line-height: 1.75;
+        }
+
+        .impact-statement {
+            background: linear-gradient(to right, rgba(88, 28, 135, 0.5), rgba(157, 23, 77, 0.5));
+            border: 2px solid rgba(236, 72, 153, 0.3);
+            border-radius: 1rem;
+            padding: 2.5rem 2rem;
+            text-align: center;
+        }
+
+        .impact-quote {
+            font-size: 1.25rem;
+            font-weight: 500;
+            line-height: 1.75;
+        }
+
+        .impact-highlight {
+            display: block;
+            margin-top: 0.75rem;
+            color: #facc15;
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+
+        .impact-question {
+            display: block;
+            margin-top: 1rem;
+            color: #f472b6;
+            font-weight: 600;
+        }
+
+        /* Who Can Join */
+        .join-section {
+            padding: 3rem 1rem;
+            background: linear-gradient(to bottom, #000 0%, #581c87 50%, #000 100%);
+        }
+
+        .personas-grid {
+            display: grid;
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .persona-card {
+            border-radius: 0.75rem;
+            padding: 2rem 1.5rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .persona-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+        }
+
+        .persona-card::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            opacity: 0.9;
+            transition: opacity 0.3s;
+        }
+
+        .persona-card:hover::before {
+            opacity: 1;
+        }
+
+        .persona-card:nth-child(1)::before { background: linear-gradient(to bottom right, #db2777, #dc2626); }
+        .persona-card:nth-child(2)::before { background: linear-gradient(to bottom right, #7c3aed, #db2777); }
+        .persona-card:nth-child(3)::before { background: linear-gradient(to bottom right, #dc2626, #ea580c); }
+        .persona-card:nth-child(4)::before { background: linear-gradient(to bottom right, #2563eb, #7c3aed); }
+        .persona-card:nth-child(5)::before { background: linear-gradient(to bottom right, #059669, #0d9488); }
+        .persona-card:nth-child(6)::before { background: linear-gradient(to bottom right, #ca8a04, #ea580c); }
+
+        .persona-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .persona-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .persona-title {
+            font-size: 1.75rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .persona-description {
+            font-size: 0.875rem;
+            color: rgba(255, 255, 255, 0.9);
+            line-height: 1.75;
+            margin-bottom: 1rem;
+        }
+
+        .persona-badge {
+            padding-top: 1rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .persona-badge p {
+            color: #fde047;
+            font-weight: 500;
+            font-size: 0.875rem;
+        }
+
+        .inclusive-message {
+            background: linear-gradient(to right, rgba(107, 33, 168, 0.5), rgba(157, 23, 77, 0.5));
+            border: 2px solid rgba(236, 72, 153, 0.3);
+            border-radius: 1rem;
+            padding: 2.5rem 2rem;
+            text-align: center;
+        }
+
+        .inclusive-question {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .inclusive-text {
+            font-size: 1.125rem;
+            color: #d1d5db;
+            max-width: 900px;
+            margin: 0 auto 1.5rem;
+        }
+
+        .inclusive-truth {
+            font-size: 1.25rem;
+            color: #f472b6;
+            font-weight: 500;
+            margin-bottom: 1rem;
+        }
+
+        .inclusive-final {
+            font-size: 1.125rem;
+            color: rgba(255, 255, 255, 0.9);
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .inclusive-final span {
+            display: block;
+            margin-top: 0.75rem;
+            color: #facc15;
+            font-weight: 600;
+        }
+
+        /* Testimonials */
+        .testimonials-section {
+            padding: 3rem 1rem;
+            background: #fff;
+            color: #000;
+        }
+
+        .testimonials-section .section-title {
+            color: #000;
+            font-size: 2.5rem;
+        }
+
+        .testimonials-section .section-description {
+            color: #374151;
+        }
+
+        .testimonials-section .section-description span {
+            color: #db2777;
+        }
+
+        .testimonial-hook {
+            background: linear-gradient(to right, #f3e8ff, #fce7f3);
+            border: 2px solid #f9a8d4;
+            border-radius: 1rem;
+            padding: 1.5rem 2rem;
+            margin-bottom: 3rem;
+            text-align: center;
+        }
+
+        .hook-question {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #1f2937;
+            margin-bottom: 1rem;
+        }
+
+        .hook-text {
+            font-size: 1rem;
+            color: #374151;
+        }
+
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+            margin-bottom: 3rem;
+        }
+
+        .testimonial-card {
+            background: #fff;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            border: 1px solid #e5e7eb;
+            transition: all 0.3s;
+        }
+
+        .testimonial-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2);
+        }
+
+        .testimonial-card img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .learning-banner {
+            background: linear-gradient(to right, #581c87, #be185d);
+            border-radius: 1rem;
+            padding: 3rem 2rem;
+            text-align: center;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            color: #fff;
+            margin-bottom: 3rem;
+        }
+
+        .learning-title {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+        }
+
+        .learning-text {
+            font-size: 1.125rem;
+            color: rgba(255, 255, 255, 0.9);
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .learning-text span {
+            display: block;
+            margin-top: 1rem;
+            color: #facc15;
+            font-size: 1.25rem;
+            font-weight: 600;
+        }
+
+        .social-stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+        }
+
+        .stat-card {
+            border-radius: 0.75rem;
+            padding: 1.5rem 1rem;
+            text-align: center;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+
+        .stat-card:nth-child(1) { background: linear-gradient(to bottom right, #ec4899, #7c3aed); }
+        .stat-card:nth-child(2) { background: linear-gradient(to bottom right, #7c3aed, #2563eb); }
+        .stat-card:nth-child(3) { background: linear-gradient(to bottom right, #2563eb, #0d9488); }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-label {
+            font-size: 0.875rem;
+            font-weight: 500;
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        /* CTA Section */
+        .cta-section {
+            padding: 4rem 1rem;
+            background: linear-gradient(to bottom, #000 0%, #581c87 50%, #000 100%);
+        }
+
+        .cta-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .cta-description {
+            font-size: 1.125rem;
+            text-align: center;
+            color: #d1d5db;
+            margin-bottom: 2rem;
+        }
+
+        .cta-description span {
+            display: block;
+            margin-top: 0.75rem;
+            color: #f472b6;
+            font-weight: 600;
+        }
+
+        .price-box {
+            background: linear-gradient(to right, #6b21a8, #db2777);
+            border-radius: 1rem;
+            padding: 3rem 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+        }
+
+        .regular-price {
+            font-size: 1.25rem;
+            font-weight: 500;
+            color: rgba(255, 255, 255, 0.8);
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        .regular-price span {
+            text-decoration: line-through;
+        }
+
+        .final-price {
+            font-size: 4rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .price-note {
+            font-size: 1.125rem;
+            font-weight: 500;
+            color: #fde047;
+            text-align: center;
+        }
+
+        .value-note {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 0.75rem;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .value-note p {
+            font-size: 0.875rem;
+            color: #fff;
+            line-height: 1.75;
+        }
+
+        .value-note span {
+            display: block;
+            margin-top: 0.5rem;
+            color: #facc15;
+            font-weight: 600;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(to right, #facc15, #f97316);
+            padding: 1.5rem 3rem;
+            border-radius: 9999px;
+            font-size: 1.875rem;
+            font-weight: 700;
+            color: #000;
+            text-decoration: none;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            transition: all 0.3s;
+            cursor: pointer;
+            border: none;
+        }
+
+        .cta-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 40px rgba(250, 204, 21, 0.5);
+        }
+
+        .button-wrapper {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .button-note {
+            font-size: 0.875rem;
+            color: rgba(255, 255, 255, 0.7);
+            text-align: center;
+        }
+
+        .value-props {
+            display: grid;
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .value-card {
+            border-radius: 0.75rem;
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        .value-card:nth-child(1) { background: linear-gradient(to bottom right, #059669, #0d9488); }
+        .value-card:nth-child(2) { background: linear-gradient(to bottom right, #2563eb, #7c3aed); }
+
+        .value-icon {
+            font-size: 2.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .value-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .value-description {
+            font-size: 0.875rem;
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        .emotional-push {
+            background: linear-gradient(to right, rgba(88, 28, 135, 0.5), rgba(157, 23, 77, 0.5));
+            border: 2px solid rgba(236, 72, 153, 0.3);
+            border-radius: 1rem;
+            padding: 2.5rem 2rem;
+        }
+
+        .emotional-question {
+            font-size: 1.5rem;
+            font-weight: 600;
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .emotional-text {
+            font-size: 1.125rem;
+            color: #d1d5db;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .emotional-highlight {
+            font-size: 1.25rem;
+            color: #f472b6;
+            font-weight: 500;
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .emotional-final {
+            font-size: 1rem;
+            text-align: center;
+        }
+
+        .emotional-final span {
+            color: #facc15;
+            font-weight: 600;
+        }
+
+        .urgency-footer {
+            margin-top: 3rem;
+            text-align: center;
+        }
+
+        .urgency-badge-footer {
+            display: inline-block;
+            background: #dc2626;
+            padding: 0.75rem 1.5rem;
+            border-radius: 9999px;
+            animation: pulse 2s infinite;
+        }
+
+        .urgency-badge-footer p {
+            font-weight: 700;
+        }
+
+        /* Footer */
+        .footer {
+            padding: 3rem 1rem;
+            background: #000;
+            border-top: 1px solid #374151;
+        }
+
+        .footer-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .footer-image-wrapper {
+            width: 128px;
+            height: 128px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 4px solid #ec4899;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+        }
+
+        .footer-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .footer-info {
+            text-align: center;
+        }
+
+        .footer-name {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #f472b6;
+            margin-bottom: 0.75rem;
+        }
+
+        .footer-subtitle {
+            font-size: 1rem;
+            color: #d1d5db;
+            margin-bottom: 0.75rem;
+        }
+
+        .footer-link {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: #60a5fa;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-link:hover {
+            color: #93c5fd;
+        }
+
+        .footer-message {
+            background: linear-gradient(to right, rgba(107, 33, 168, 0.3), rgba(157, 23, 77, 0.3));
+            border: 1px solid rgba(236, 72, 153, 0.2);
+            border-radius: 0.75rem;
+            padding: 2rem 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-quote {
+            font-size: 1.125rem;
+            font-weight: 500;
+            text-align: center;
+            line-height: 1.75;
+        }
+
+        .footer-quote span {
+            display: block;
+            margin-top: 0.75rem;
+        }
+
+        .footer-quote .highlight-pink {
+            font-weight: 600;
+        }
+
+        .footer-signature {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #facc15;
+            text-align: center;
+            margin-top: 1.5rem;
+        }
+
+        .footer-stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-stat {
+            background: rgba(107, 33, 168, 0.5);
+            border-radius: 0.5rem;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .footer-stat-icon {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-stat-text {
+            font-weight: 600;
+            font-size: 0.875rem;
+        }
+
+        .copyright {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid #374151;
+            color: #9ca3af;
+            font-size: 0.875rem;
+        }
+
+        /* Responsive Design */
+        @media (min-width: 768px) {
+            .hero-title {
+                font-size: 2rem;
+            }
+
+            .tamil-headline {
+                font-size: 3rem;
+            }
+
+            .coach-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .coach-info {
+                text-align: left;
+            }
+
+            .coach-name {
+                font-size: 3rem;
+            }
+
+            .stats-content {
+                flex-direction: row;
+                text-align: left;
+            }
+
+            .modules-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .bonus-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .pillars-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            .personas-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .testimonials-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            .value-props {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .footer-content {
+                flex-direction: row;
+            }
+
+            .footer-info {
+                text-align: left;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .container {
+                padding: 0 4rem;
+            }
+
+            .hero-title {
+                font-size: 2.5rem;
+            }
+
+            .tamil-headline {
+                font-size: 3.5rem;
+            }
+
+            .section-title {
+                font-size: 3rem;
+            }
+
+            .coach-name {
+                font-size: 3.75rem;
+            }
+
+            .personas-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            .testimonials-grid {
+                grid-template-columns: repeat(4, 1fr);
+            }
+
+            .testimonials-section .section-title {
+                font-size: 3.75rem;
+            }
+
+            .learning-title {
+                font-size: 4.5rem;
+            }
+
+            .cta-title {
+                font-size: 3rem;
+            }
+
+            .final-price {
+                font-size: 4.5rem;
+            }
+
+            .footer-name {
+                font-size: 3rem;
+            }
+        }
+
+        /* Smooth Scroll */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <!-- Logo - Replace with actual image URL -->
+            <img src="https://via.placeholder.com/96" alt="Logo" class="logo">
+            
+            <div class="hero-title-box">
+                <h1 class="hero-title">UI/UX Interview Cracking Workshop</h1>
+            </div>
+
+            <div class="hero-tamil">
+                <h2 class="tamil-font tamil-headline">
+                    நீங்க எங்க படித்தாலும் சரி!!
+                </h2>
+                <p class="tamil-font tamil-headline">
+                    UX Interview Crack Panalam?
+                </p>
+            </div>
+
+            <div class="subheadline">
+                <span>Stop letting interviews slip through your fingers.</span>
+                <span class="highlight-pink">Your dream UX career is just one workshop away.</span>
+            </div>
+
+            <div class="urgency-badge">
+                🔥 Limited Seats Available - Join 12,000+ Success Stories
+            </div>
+
+            <!-- Join Now Button -->
+            <div style="text-align: center; margin-top: 2rem;">
+                <a 
+                    href="https://chat.whatsapp.com/GZ7WWgIZVug0qQAD1LOrw0" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    class="cta-button"
+                >
+                    Join Now 🚀
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coach Introduction -->
+    <section class="coach-section">
+        <div class="container">
+            <div class="coach-grid">
+                <!-- Replace with actual image URL -->
+                <div class="coach-image-wrapper">
+                    <img src="https://via.placeholder.com/400x500" alt="Auro Lakshmanan" class="coach-image">
+                </div>
+
+                <div class="coach-info">
+                    <h2 class="coach-name">Auro Lakshmanan</h2>
+                    <p class="coach-title">EX. UX Designer CSK, Accenture, VS&Co</p>
+                    <p class="coach-subtitle">
+                        UXCoach | UX Design Engineer | Product Designer | Tech Freak | Content Creator
+                    </p>
+
+                    <div class="quote-box">
+                        <p>
+                            "I know exactly how it feels to stare at rejection emails. I've been there. 
+                            But here's the truth: <span class="highlight-yellow">You're not failing because you lack talent.</span> 
+                            You're struggling because nobody taught you how to crack interviews like a pro."
+                        </p>
+                    </div>
+
+                    <div class="coach-badge">
+                        <h3>I will be your coach for 30 Days</h3>
+                        <p>(Free Bonus Content)</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="community-stats">
+                <div class="stats-content">
+                    <!-- Replace with actual icon image -->
+                    <img src="https://via.placeholder.com/64" alt="Community" class="stats-icon">
+                    <div>
+                        <h3 class="stats-title">12000+ Learners from Tamil UX Community</h3>
+                        <p class="stats-subtitle">Trained over 12K Students in Last 4 Years</p>
+                    </div>
+                </div>
+                
+                <div class="stats-description">
+                    <p>
+                        Join a community that actually cares about your success. These aren't just numbers—
+                        <span style="display: block; margin-top: 0.5rem; font-weight: 600;">they're real people who transformed their careers, just like you will.</span>
+                    </p>
+                </div>
+
+                <!-- Join Now Button -->
+                <div style="text-align: center; margin-top: 2rem;">
+                    <a 
+                        href="https://chat.whatsapp.com/GZ7WWgIZVug0qQAD1LOrw0" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        class="cta-button"
+                    >
+                        Join Now 🚀
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Workshop Details -->
+    <section class="workshop-section">
+        <div class="container">
+            <h2 class="section-title">Workshop Details</h2>
+            <p class="section-description">
+                This isn't just another course. It's a complete transformation system that takes you from 
+                <span class="highlight-pink">interview anxiety to interview confidence</span> in 30 days.
+            </p>
+
+            <!-- Replace with actual workshop image -->
+            <img src="https://via.placeholder.com/700x400" alt="Workshop" class="workshop-image">
+
+            <h3 class="section-title" style="font-size: 1.75rem; margin-bottom: 2rem;">
+                What You'll Master in 30 Days
+            </h3>
+
+            <div class="modules-grid">
+                <div class="module-card">
+                    <div class="module-content">
+                        <div class="module-icon">🎨</div>
+                        <div>
+                            <h4 class="module-title">1. Portfolio That Makes Recruiters Say 'WOW'</h4>
+                            <p class="module-description">
+                                Stop sending portfolios that get ignored. Learn to craft a portfolio that tells your story and makes hiring managers reach for their phone.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="module-card">
+                    <div class="module-content">
+                        <div class="module-icon">🌐</div>
+                        <div>
+                            <h4 class="module-title">2. Personal Website That Screams 'Hire Me'</h4>
+                            <p class="module-description">
+                                Stand out from the crowd. We'll help you create a stunning personal brand that positions you as the obvious choice.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="module-card">
+                    <div class="module-content">
+                        <div class="module-icon">📄</div>
+                        <div>
+                            <h4 class="module-title">3. Resume That Gets Past ATS & Impresses Humans</h4>
+                            <p class="module-description">
+                                Your resume is your first impression. Make it count. No more generic templates—build one that opens doors.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="module-card">
+                    <div class="module-content">
+                        <div class="module-icon">💼</div>
+                        <div>
+                            <h4 class="module-title">4. Mock Interviews (Realistic UX Q/A)</h4>
+                            <p class="module-description">
+                                Practice doesn't make perfect. Perfect practice does. Face real interview scenarios and crush them with confidence.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="module-card">
+                    <div class="module-content">
+                        <div class="module-icon">🗣️</div>
+                        <div>
+                            <h4 class="module-title">5. Communication Skills That Win Jobs</h4>
+                            <p class="module-description">
+                                Your ideas are brilliant. Now learn to articulate them so everyone else sees it too. Communication is your superpower.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="module-card">
+                    <div class="module-content">
+                        <div class="module-icon">🚀</div>
+                        <div>
+                            <h4 class="module-title">6. 90-Day Design Challenge</h4>
+                            <p class="module-description">
+                                Consistency beats talent. Transform your skills day by day with challenges that build your confidence and portfolio.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="module-card">
+                    <div class="module-content">
+                        <div class="module-icon">🤝</div>
+                        <div>
+                            <h4 class="module-title">7. 1:1 Mentor Connects</h4>
+                            <p class="module-description">
+                                Get personalized guidance. No cookie-cutter advice—real solutions for your unique challenges.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="module-card">
+                    <div class="module-content">
+                        <div class="module-icon">✉️</div>
+                        <div>
+                            <h4 class="module-title">8. Job Referrals from Us</h4>
+                            <p class="module-description">
+                                Stop applying into the void. Get direct referrals to companies actively hiring. This alone is worth 10x the workshop fee.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="module-card">
+                    <div class="module-content">
+                        <div class="module-icon">💰</div>
+                        <div>
+                            <h4 class="module-title">9. Freelancing Tips to Earn While You Learn</h4>
+                            <p class="module-description">
+                                Don't wait to get hired. Start earning immediately with proven freelancing strategies.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="module-card">
+                    <div class="module-content">
+                        <div class="module-icon">🏆</div>
+                        <div>
+                            <h4 class="module-title">10. Entrepreneurship Tips</h4>
+                            <p class="module-description">
+                                Dream bigger. Learn how to build your own design agency and create the career you've always wanted.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bonuses -->
+            <div class="bonus-section">
+                <p class="tamil-font bonus-title">🎁 Free Bonus</p>
+                <p class="bonus-subtitle">Worth ₹15,000 - Yours FREE Today</p>
+
+                <div class="bonus-grid">
+                    <div class="bonus-item">
+                        <div class="bonus-check">✅</div>
+                        <p class="bonus-text">Community Access to Our Job Referral Community</p>
+                    </div>
+                    <div class="bonus-item">
+                        <div class="bonus-check">✅</div>
+                        <p class="bonus-text">Free e-books Worth ₹5000</p>
+                    </div>
+                    <div class="bonus-item">
+                        <div class="bonus-check">✅</div>
+                        <p class="bonus-text">Roadmap to crack interviews in TOP MNC's</p>
+                    </div>
+                    <div class="bonus-item">
+                        <div class="bonus-check">✅</div>
+                        <p class="bonus-text">Lifetime Access to Workshop Materials</p>
+                    </div>
+                    <div class="bonus-item">
+                        <div class="bonus-check">✅</div>
+                        <p class="bonus-text">Weekly Q&A Sessions for 30 Days</p>
+                    </div>
+                </div>
+
+                <p class="bonus-note">
+                    These bonuses alone are worth more than the entire workshop fee.
+                    <span>But they're yours completely FREE when you join today.</span>
+                </p>
+
+                <!-- Join Now Button -->
+                <div style="text-align: center; margin-top: 2rem;">
+                    <a 
+                        href="https://chat.whatsapp.com/GZ7WWgIZVug0qQAD1LOrw0" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        class="cta-button"
+                    >
+                        Join Now 🚀
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section" style="padding: 3rem 1rem; background: linear-gradient(to bottom, rgb(59, 7, 100), black);">
+        <div class="container" style="max-width: 56rem; margin: 0 auto;">
+            <!-- Section Header -->
+            <div style="text-align: center; margin-bottom: 2rem;">
+                <h2 style="font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 2.5rem; color: white; margin-bottom: 1rem;">
+                    Watch This Before You Decide
+                </h2>
+                <p style="font-family: 'Poppins', sans-serif; font-size: 1.25rem; color: rgb(209, 213, 219);">
+                    See what makes this workshop different and how it can transform your career
+                </p>
+            </div>
+
+            <!-- Video Container -->
+            <div style="position: relative; width: 100%; padding-bottom: 56.25%; margin-bottom: 2rem;">
+                <iframe
+                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 1rem; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);"
+                    src="https://www.youtube.com/embed/CxljaL11ctc"
+                    title="Workshop Introduction Video"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                ></iframe>
+            </div>
+
+            <!-- Call to Action after video -->
+            <div style="text-align: center; margin-top: 2rem;">
+                <p style="font-family: 'Poppins', sans-serif; font-weight: 500; font-size: 1.5rem; color: rgb(250, 204, 21); margin-bottom: 1rem;">
+                    Ready to Transform Your Career?
+                </p>
+                <a 
+                    href="https://chat.whatsapp.com/GZ7WWgIZVug0qQAD1LOrw0" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    class="cta-button"
+                >
+                    Join Now 🚀
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Career Transformation -->
+    <section class="transformation-section">
+        <div class="container">
+            <h2 class="section-title">What Will Change In Your Career?</h2>
+            <p class="section-description">
+                Imagine waking up knowing you have the skills, confidence, and connections to land any UX job you want.
+                <span class="highlight-pink" style="display: block; margin-top: 0.75rem; font-weight: 600;">That's not a dream. That's your reality in 30 days.</span>
+            </p>
+
+            <div class="center-circle">
+                <div class="circle-inner">
+                    <div>
+                        <p class="circle-text">Career Breakthrough</p>
+                        <p class="circle-subtext">Your Future Starts Here</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pillars-grid">
+                <div class="pillar-card">
+                    <div class="pillar-icon">🗺️</div>
+                    <h3 class="pillar-title">Right Road Map</h3>
+                    <p class="pillar-description">
+                        Stop wandering aimlessly. Get a crystal-clear path from where you are to where you want to be. 
+                        Every step planned, every milestone defined.
+                    </p>
+                </div>
+
+                <div class="pillar-card">
+                    <div class="pillar-icon">🎯</div>
+                    <h3 class="pillar-title">Growth Mindset for Your Career</h3>
+                    <p class="pillar-description">
+                        Transform your thinking from "I hope I get hired" to "Companies compete to hire me." 
+                        Mindset is everything.
+                    </p>
+                </div>
+
+                <div class="pillar-card">
+                    <div class="pillar-icon">⚡</div>
+                    <h3 class="pillar-title">Right Career Strategies</h3>
+                    <p class="pillar-description">
+                        Learn insider strategies that top UX designers use to get hired, get promoted, and get paid what they deserve.
+                    </p>
+                </div>
+            </div>
+
+            <div class="impact-statement">
+                <p class="impact-quote">
+                    "Six months from now, you'll either look back and say
+                    <span class="impact-highlight">'That workshop changed everything'</span>
+                    <span style="display: block; margin-top: 0.75rem;">or you'll still be wondering 'what if?'</span>
+                    <span class="impact-question">Which story do you want to tell?</span>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Who Can Join -->
+    <section class="join-section">
+        <div class="container">
+            <h2 class="section-title">Who Can Join?</h2>
+            <p class="section-description">
+                If you're reading this, you're already qualified. The only requirement is 
+                <span class="highlight-pink">the desire to change your career story.</span>
+            </p>
+
+            <div class="personas-grid">
+                <div class="persona-card">
+                    <div class="persona-content">
+                        <div class="persona-icon">🎓</div>
+                        <h3 class="persona-title">Students</h3>
+                        <p class="persona-description">
+                            You're in college or just graduated. Stop worrying about 'not having experience.' Learn to position yourself as hire-ready from day one.
+                        </p>
+                        <div class="persona-badge">
+                            <p>✓ You belong here</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="persona-card">
+                    <div class="persona-content">
+                        <div class="persona-icon">🎨</div>
+                        <h3 class="persona-title">UI UX Designer</h3>
+                        <p class="persona-description">
+                            You know the tools, but interviews still feel like a mystery. Master the art of showcasing your work and communicating your design thinking.
+                        </p>
+                        <div class="persona-badge">
+                            <p>✓ You belong here</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="persona-card">
+                    <div class="persona-content">
+                        <div class="persona-icon">✏️</div>
+                        <h3 class="persona-title">Graphic Designer</h3>
+                        <p class="persona-description">
+                            Ready to level up from graphics to UX? Learn the skills and interview strategies to make that transition smooth and lucrative.
+                        </p>
+                        <div class="persona-badge">
+                            <p>✓ You belong here</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="persona-card">
+                    <div class="persona-content">
+                        <div class="persona-icon">💻</div>
+                        <h3 class="persona-title">IT Professionals</h3>
+                        <p class="persona-description">
+                            Stuck in a job that drains you? Transition to UX design with a proven roadmap. Your tech background is an advantage—we'll show you how.
+                        </p>
+                        <div class="persona-badge">
+                            <p>✓ You belong here</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="persona-card">
+                    <div class="persona-content">
+                        <div class="persona-icon">🌟</div>
+                        <h3 class="persona-title">Non-IT Professionals</h3>
+                        <p class="persona-description">
+                            Think IT is not for you? Think again. We've helped teachers, accountants, and artists break into UX. Your unique perspective is your strength.
+                        </p>
+                        <div class="persona-badge">
+                            <p>✓ You belong here</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="persona-card">
+                    <div class="persona-content">
+                        <div class="persona-icon">🚀</div>
+                        <h3 class="persona-title">IT la Work Poganum</h3>
+                        <p class="persona-description">
+                            You just want to get into IT and build a stable, high-paying career. This is your ticket in. No connections needed—just commitment.
+                        </p>
+                        <div class="persona-badge">
+                            <p>✓ You belong here</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inclusive-message">
+                <p class="inclusive-question">"But will this work for someone like me?"</p>
+                <p class="inclusive-text">
+                    I've heard every excuse. Too old. Too young. Wrong degree. No degree. No experience. Too much experience.
+                </p>
+                <p class="inclusive-truth">Here's the truth: None of that matters.</p>
+                <p class="inclusive-final">
+                    What matters is showing up, putting in the work, and following a proven system.
+                    <span>12,000+ people from all backgrounds have done this. You can too.</span>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials-section">
+        <div class="container">
+            <h2 class="section-title">Class Feedback from Real People</h2>
+            <p class="section-description">
+                These aren't staged reviews. These are real messages from real people whose lives changed after taking this workshop.
+                <span>Your success story could be next.</span>
+            </p>
+
+            <div class="testimonial-hook">
+                <p class="hook-question">💬 "Will this actually work for me?"</p>
+                <p class="hook-text">
+                    Don't take my word for it. Read what 12,000+ students have to say. 
+                    These are people just like you who took the leap and never looked back.
+                </p>
+            </div>
+
+            <!-- Testimonials Grid - Replace with actual testimonial images -->
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <img src="https://via.placeholder.com/300x400" alt="Testimonial 1">
+                </div>
+                <div class="testimonial-card">
+                    <img src="https://via.placeholder.com/300x400" alt="Testimonial 2">
+                </div>
+                <div class="testimonial-card">
+                    <img src="https://via.placeholder.com/300x400" alt="Testimonial 3">
+                </div>
+                <div class="testimonial-card">
+                    <img src="https://via.placeholder.com/300x400" alt="Testimonial 4">
+                </div>
+                <div class="testimonial-card">
+                    <img src="https://via.placeholder.com/300x400" alt="Testimonial 5">
+                </div>
+                <div class="testimonial-card">
+                    <img src="https://via.placeholder.com/300x400" alt="Testimonial 6">
+                </div>
+                <div class="testimonial-card">
+                    <img src="https://via.placeholder.com/300x400" alt="Testimonial 7">
+                </div>
+                <div class="testimonial-card">
+                    <img src="https://via.placeholder.com/300x400" alt="Testimonial 8">
+                </div>
+            </div>
+
+            <div class="learning-banner">
+                <h3 class="learning-title">Never Stop Learning</h3>
+                <p class="learning-text">
+                    Every single person you see here started where you are right now—uncertain, maybe even scared.
+                    <span>But they chose to invest in themselves.</span>
+                    <span style="display: block; margin-top: 1rem; color: #fff;">And now? They're living the career they always dreamed of.</span>
+                </p>
+            </div>
+
+            <div class="social-stats">
+                <div class="stat-card">
+                    <p class="stat-number">12,000+</p>
+                    <p class="stat-label">Students Transformed</p>
+                </div>
+                <div class="stat-card">
+                    <p class="stat-number">98%</p>
+                    <p class="stat-label">Success Rate</p>
+                </div>
+                <div class="stat-card">
+                    <p class="stat-number">4+ Years</p>
+                    <p class="stat-label">Proven Track Record</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container" style="max-width: 800px;">
+            <h2 class="cta-title">Fix Your Career with Auro Lakshmanan Today</h2>
+            <p class="cta-description">
+                Every day you wait is another day staying stuck in the same place.
+                <span>The choice is yours. Make it count.</span>
+            </p>
+
+            <div class="price-box">
+                <div class="value-note">
+                    <p>
+                        This investment will feed your career for a lifetime.
+                        <span>Your transformation starts now.</span>
+                    </p>
+                </div>
+
+                <div class="button-wrapper">
+                    <a href="https://chat.whatsapp.com/GZ7WWgIZVug0qQAD1LOrw0" target="_blank" rel="noopener noreferrer" class="cta-button">Join Now 🚀</a>
+                </div>
+                <p class="button-note">Secure your spot in the next batch</p>
+            </div>
+
+            <div class="value-props">
+                <div class="value-card">
+                    <div class="value-icon">✅</div>
+                    <p class="value-title">30-Day Money Back Guarantee</p>
+                    <p class="value-description">Not satisfied? Get a full refund. No questions asked.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">🎁</div>
+                    <p class="value-title">Lifetime Access</p>
+                    <p class="value-description">All materials, updates, and bonuses—forever.</p>
+                </div>
+            </div>
+
+            <div class="emotional-push">
+                <p class="emotional-question">"What if I told you that a year from now..."</p>
+                <p class="emotional-text">
+                    You could be working at your dream company, earning more than you ever thought possible, 
+                    and actually loving what you do every single day.
+                </p>
+                <p class="emotional-highlight">Would this investment seem significant then?</p>
+                <p class="emotional-final">
+                    Or would it seem like the <span>best decision you ever made?</span>
+                </p>
+            </div>
+
+            <div class="urgency-footer">
+                <div class="urgency-badge-footer">
+                    <p>⏰ Only 50 Seats Available This Batch - Don't Miss Out!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-image-wrapper">
+                    <!-- Replace with actual coach image -->
+                    <img src="https://via.placeholder.com/128" alt="Auro Lakshmanan" class="footer-image">
+                </div>
+
+                <div class="footer-info">
+                    <h3 class="footer-name">Auro Lakshmanan</h3>
+                    <p class="footer-title">EX. UX Designer CSK, Accenture, VS&Co</p>
+                    <p class="footer-subtitle">
+                        UXCoach | UX Design Engineer | Product Designer | Tech Freak | Content Creator
+                    </p>
+                    <a href="https://www.dementee.com" class="footer-link">www.dementee.com</a>
+                </div>
+            </div>
+
+            <div class="footer-message">
+                <p class="footer-quote">
+                    "Remember: Success isn't about being the smartest or the most talented.
+                    <span class="highlight-pink">It's about taking action when everyone else is making excuses.</span>
+                    <span>See you in the workshop. Let's make your breakthrough happen together."</span>
+                </p>
+                <p class="footer-signature">- Auro</p>
+            </div>
+
+            <div class="footer-stats">
+                <div class="footer-stat">
+                    <p class="footer-stat-icon">🏆</p>
+                    <p class="footer-stat-text">12,000+ Success Stories</p>
+                </div>
+                <div class="footer-stat">
+                    <p class="footer-stat-icon">💼</p>
+                    <p class="footer-stat-text">Direct Job Referrals</p>
+                </div>
+                <div class="footer-stat">
+                    <p class="footer-stat-icon">🎯</p>
+                    <p class="footer-stat-text">Proven Results</p>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>© 2026 Dementee. All rights reserved. | Transforming careers, one student at a time.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
