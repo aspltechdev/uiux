@@ -1,34 +1,34 @@
-import imgWhatsAppImage20240324At9144 from "../assets/82462b6f28a2e9cfa3dcda15d6bc7ef383871fd7.png";
-import imgWhatsAppImage20240324At9136 from "../assets/b89e2a84f4991008dc49196d88a94cec63279405.png";
-import imgWhatsAppImage20240324At9134 from "../assets/906875198f6ef01e71d7c3373d7561c4013156ca.png";
-import imgWhatsAppImage20240324At9138 from "../assets/00662936f10fb4dc85fe638e7b0a4c577e82e9ce.png";
-import imgWhatsAppImage20240324At9139 from "../assets/4f3d99e11c8536c1ae42e80c98851c767aa46e02.png";
-import imgWhatsAppImage20240324At9140 from "../assets/6a146f25a9f94118d8879b015de4b5d9bebe78c6.png";
-import imgWhatsAppImage20240324At9141 from "../assets/23c1063ea392884781d08c7a54ece3240cda8fb0.png";
-import imgWhatsAppImage20240324At9145 from "../assets/8ad891a4d766532e7b82fa64c36850240eb42658.png";
-import imgAuroLakshmanan2 from "../assets/b1bd1ef12d511d42be00b38ff116c1ddb9ecbd09.png";
-import imgImage168 from "../assets/03dc83262c04edc9390845788bb08208b3be3586.png";
-import imgAuro21 from "../assets/d9dd287d5515a121f90360dd2768c5d50ce72f48.png";
-import imgImage167 from "../assets/6153791bd042a5e53dde29b9a09660d48b09c024.png";
-import imgWorkshop21FlattenedFlattened from "../assets/8cfadad696bc6e5821bc5bda3c1fcd7030a2a3f1.png";
-import imgImage171 from "../assets/e898bf1b4a4eab1f293e84edeaaeafeed655fbe4.png";
-import imgImage176 from "../assets/2dc5eb4453465dc0b076c853d3f034b00858878c.png";
-import imgImage172 from "../assets/afb24ad5806d0bb297c07b0e0b96e91b43f3c6bf.png";
-import imgImage173 from "../assets/167b4263a379007e1fe4ab85639956ab040e4cba.png";
-import imgImage174 from "../assets/b216ccef1046287619d7a75e91f095334f35ea3d.png";
-import imgImage175 from "../assets/207c7ba3d66be7e63d4cd4c2499754b4b97d20c2.png";
-import imgImage177 from "../assets/2a78be5a95cad346405b43a3add9e609c1c68b58.png";
-import imgImage178 from "../assets/884ccbed4c98ea819632434e57b5902a77252ce1.png";
-import imgImage179 from "../assets/c4e2e731f20ec703b2b2e19e10e5ea3806469495.png";
-import imgImage180 from "../assets/f9824fbbf453e753e9ce54006c2c8f2a28e13d87.png";
-import imgImage181 from "../assets/160845e7345a7f6c8fb413063dff2ca4b0844bec.png";
-import imgImage182 from "../assets/d0fd45a3cc06d5e79a29bcfe67f33781258b650c.png";
-import imgImage184 from "../assets/37bebc8cb5f9a7c669b53ba4dfc2e4297a92ddb6.png";
-import imgImage185 from "../assets/899ad3331d5011cac8899f877d22ffcd9418100a.png";
-import imgImage186 from "../assets/97f2327f372ffbc4385d5545c03aa88062c89122.png";
-import imgImage183 from "../assets/67837f86a11fdc61f2f7699d25027867ee656762.png";
-import imgImage187 from "../assets/ea2a7c1b6de362c4e6c69a782aa93c22c450d01d.png";
-import imgImage188 from "../assets/a301afc173fc66886ab00ecf6fde94d39d83837d.png";
+const imgWhatsAppImage20240324At9144 = "/w1.png";
+const imgWhatsAppImage20240324At9136 = "/w2.png";
+const imgWhatsAppImage20240324At9134 = "/w3.png";
+const imgWhatsAppImage20240324At9138 = "/w4.png";
+const imgWhatsAppImage20240324At9139 = "/w5.png";
+const imgWhatsAppImage20240324At9140 = "/w6.png";
+const imgWhatsAppImage20240324At9141 = "/w7.png";
+const imgWhatsAppImage20240324At9145 = "/w8.png";
+const imgAuroLakshmanan2 = "/auro_footer.png";
+const imgImage168 = "/community_check.png";
+const imgAuro21 = "/auro_main.png";
+const imgImage167 = "/logo_small.png";
+const imgWorkshop21FlattenedFlattened = "/workshop.png";
+const imgImage171 = "/g1.png";
+const imgImage176 = "/g6.png";
+const imgImage172 = "/g2.png";
+const imgImage173 = "/g3.png";
+const imgImage174 = "/g4.png";
+const imgImage175 = "/g5.png";
+const imgImage177 = "/g7.png";
+const imgImage178 = "/g8.png";
+const imgImage179 = "/g9.png";
+const imgImage180 = "/g10.png";
+const imgImage181 = "/g11.png";
+const imgImage182 = "/g12.png";
+const imgImage184 = "/g14.png";
+const imgImage185 = "/g15.png";
+const imgImage186 = "/g16.png";
+const imgImage183 = "/g13.png";
+const imgImage187 = "/g17.png";
+const imgImage188 = "/g18.png";
 import { imgWhatsAppImage20240324At9143, imgWhatsAppImage20240324At9135, imgWhatsAppImage20240324At9133, imgWhatsAppImage20240324At9137, imgWhatsAppImage20240324At9132, imgWhatsAppImage20240324At9131, imgWhatsAppImage20240324At9142, imgAuroLakshmanan1 } from "./svg-z8wdw";
 
 function Group() {
@@ -103,7 +103,7 @@ function Group() {
 function MaskGroup() {
   return (
     <div className="absolute contents left-[calc(66.67%+114.33px)] top-[9006px]" data-name="Mask group">
-      <div className="absolute left-[calc(66.67%+114.33px)] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[0px_-8px] mask-size-[379px_241px] size-[377px] top-[9014px]" data-name="WhatsApp Image 2024-03-24 at 9.14 3" style={{ maskImage: `url('${imgWhatsAppImage20240324At9143}')` }}>
+      <div className="absolute left-[calc(66.67%+114.33px)] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[0px_-8px] mask-size-[379px_241px] size-[377px] top-[9014px]" data-name="WhatsApp Image 2024-03-24 at 9.14 3" style={{ maskImage: `url('${imgWhatsAppImage20240324At9143}')`, WebkitMaskImage: `url('${imgWhatsAppImage20240324At9143}')` }}>
         <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgWhatsAppImage20240324At9144} />
       </div>
     </div>
@@ -113,7 +113,7 @@ function MaskGroup() {
 function MaskGroup1() {
   return (
     <div className="absolute contents left-[calc(50%-3px)] top-[9006px]" data-name="Mask group">
-      <div className="absolute h-[283px] left-[calc(50%-3px)] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[0px_14px] mask-size-[387px_240px] top-[8992px] w-[387px]" data-name="WhatsApp Image 2024-03-24 at 9.13 5" style={{ maskImage: `url('${imgWhatsAppImage20240324At9135}')` }}>
+      <div className="absolute h-[283px] left-[calc(50%-3px)] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[0px_14px] mask-size-[387px_240px] top-[8992px] w-[387px]" data-name="WhatsApp Image 2024-03-24 at 9.13 5" style={{ maskImage: `url('${imgWhatsAppImage20240324At9135}')`, WebkitMaskImage: `url('${imgWhatsAppImage20240324At9135}')` }}>
         <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgWhatsAppImage20240324At9136} />
       </div>
     </div>
@@ -123,7 +123,7 @@ function MaskGroup1() {
 function MaskGroup2() {
   return (
     <div className="absolute contents left-[calc(25%+45px)] top-[9006px]" data-name="Mask group">
-      <div className="absolute h-[255.058px] left-[calc(25%+45px)] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[0px] mask-size-[367px_241px] top-[9006px] w-[369.913px]" data-name="WhatsApp Image 2024-03-24 at 9.13 3" style={{ maskImage: `url('${imgWhatsAppImage20240324At9133}')` }}>
+      <div className="absolute h-[255.058px] left-[calc(25%+45px)] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[0px] mask-size-[367px_241px] top-[9006px] w-[369.913px]" data-name="WhatsApp Image 2024-03-24 at 9.13 3" style={{ maskImage: `url('${imgWhatsAppImage20240324At9133}')`, WebkitMaskImage: `url('${imgWhatsAppImage20240324At9133}')` }}>
         <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgWhatsAppImage20240324At9134} />
       </div>
     </div>
@@ -133,7 +133,7 @@ function MaskGroup2() {
 function MaskGroup3() {
   return (
     <div className="absolute contents left-[calc(50%-1px)] top-[8741px]" data-name="Mask group">
-      <div className="absolute h-[517.369px] left-[calc(50%-1px)] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[0px_196.066px] mask-size-[387px_246.366px] top-[8544.93px] w-[388.027px]" data-name="WhatsApp Image 2024-03-24 at 9.13 7" style={{ maskImage: `url('${imgWhatsAppImage20240324At9137}')` }}>
+      <div className="absolute h-[517.369px] left-[calc(50%-1px)] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[0px_196.066px] mask-size-[387px_246.366px] top-[8544.93px] w-[388.027px]" data-name="WhatsApp Image 2024-03-24 at 9.13 7" style={{ maskImage: `url('${imgWhatsAppImage20240324At9137}')`, WebkitMaskImage: `url('${imgWhatsAppImage20240324At9137}')` }}>
         <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgWhatsAppImage20240324At9138} />
       </div>
     </div>
@@ -143,7 +143,7 @@ function MaskGroup3() {
 function MaskGroup4() {
   return (
     <div className="absolute contents left-[calc(66.67%+114.33px)] top-[8741px]" data-name="Mask group">
-      <div className="absolute h-[323.9px] left-[calc(66.67%+92.22px)] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[22.117px_0px] mask-size-[379px_246px] top-[8741px] w-[423.233px]" data-name="WhatsApp Image 2024-03-24 at 9.13 2" style={{ maskImage: `url('${imgWhatsAppImage20240324At9132}')` }}>
+      <div className="absolute h-[323.9px] left-[calc(66.67%+92.22px)] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[22.117px_0px] mask-size-[379px_246px] top-[8741px] w-[423.233px]" data-name="WhatsApp Image 2024-03-24 at 9.13 2" style={{ maskImage: `url('${imgWhatsAppImage20240324At9132}')`, WebkitMaskImage: `url('${imgWhatsAppImage20240324At9132}')` }}>
         <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgWhatsAppImage20240324At9139} />
       </div>
     </div>
@@ -153,7 +153,7 @@ function MaskGroup4() {
 function MaskGroup5() {
   return (
     <div className="absolute contents left-[84px] top-[9006px]" data-name="Mask group">
-      <div className="absolute h-[514px] left-[81px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[3px_35px] mask-size-[378px_240px] top-[8971px] w-[385px]" data-name="WhatsApp Image 2024-03-24 at 9.13 1" style={{ maskImage: `url('${imgWhatsAppImage20240324At9131}')` }}>
+      <div className="absolute h-[514px] left-[81px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[3px_35px] mask-size-[378px_240px] top-[8971px] w-[385px]" data-name="WhatsApp Image 2024-03-24 at 9.13 1" style={{ maskImage: `url('${imgWhatsAppImage20240324At9131}')`, WebkitMaskImage: `url('${imgWhatsAppImage20240324At9131}')` }}>
         <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgWhatsAppImage20240324At9140} />
       </div>
     </div>
@@ -163,7 +163,7 @@ function MaskGroup5() {
 function MaskGroup6() {
   return (
     <div className="absolute contents left-[calc(25%+37px)] top-[8741.09px]" data-name="Mask group">
-      <div className="absolute h-[278.188px] left-[calc(25%+45.21px)] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-8.212px_0px] mask-size-[387px_246.366px] rounded-[5px] top-[8741.09px] w-[370.576px]" data-name="WhatsApp Image 2024-03-24 at 9.14 1" style={{ maskImage: `url('${imgWhatsAppImage20240324At9137}')` }}>
+      <div className="absolute h-[278.188px] left-[calc(25%+45.21px)] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-8.212px_0px] mask-size-[387px_246.366px] rounded-[5px] top-[8741.09px] w-[370.576px]" data-name="WhatsApp Image 2024-03-24 at 9.14 1" style={{ maskImage: `url('${imgWhatsAppImage20240324At9137}')`, WebkitMaskImage: `url('${imgWhatsAppImage20240324At9137}')` }}>
         <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[5px] size-full" src={imgWhatsAppImage20240324At9141} />
       </div>
     </div>
@@ -173,7 +173,7 @@ function MaskGroup6() {
 function MaskGroup7() {
   return (
     <div className="absolute contents left-[84px] top-[8741px]" data-name="Mask group">
-      <div className="absolute h-[261.375px] left-[82px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[2px_8.2px] mask-size-[378px_246px] top-[8732.8px] w-[383px]" data-name="WhatsApp Image 2024-03-24 at 9.13 4" style={{ maskImage: `url('${imgWhatsAppImage20240324At9142}')` }}>
+      <div className="absolute h-[261.375px] left-[82px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[2px_8.2px] mask-size-[378px_246px] top-[8732.8px] w-[383px]" data-name="WhatsApp Image 2024-03-24 at 9.13 4" style={{ maskImage: `url('${imgWhatsAppImage20240324At9142}')`, WebkitMaskImage: `url('${imgWhatsAppImage20240324At9142}')` }}>
         <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgWhatsAppImage20240324At9145} />
       </div>
     </div>
@@ -183,7 +183,7 @@ function MaskGroup7() {
 function MaskGroup8() {
   return (
     <div className="absolute contents left-[calc(8.33%+54.67px)] top-[10914px]" data-name="Mask group">
-      <div className="absolute left-[calc(8.33%+54.67px)] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[0px_8px] mask-size-[398px_398px] size-[415px] top-[10906px]" data-name="Auro Lakshmanan 1" style={{ maskImage: `url('${imgAuroLakshmanan1}')` }}>
+      <div className="absolute left-[calc(8.33%+54.67px)] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[0px_8px] mask-size-[398px_398px] size-[415px] top-[10906px]" data-name="Auro Lakshmanan 1" style={{ maskImage: `url('${imgAuroLakshmanan1}')`, WebkitMaskImage: `url('${imgAuroLakshmanan1}')` }}>
         <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgAuroLakshmanan2} />
       </div>
     </div>

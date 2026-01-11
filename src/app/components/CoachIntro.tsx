@@ -1,6 +1,5 @@
-import imgAuroLakshmanan2 from "../../assets/b1bd1ef12d511d42be00b38ff116c1ddb9ecbd09.png";
-import imgAuro21 from "../../assets/d9dd287d5515a121f90360dd2768c5d50ce72f48.png";
-import imgImage168 from "../../assets/03dc83262c04edc9390845788bb08208b3be3586.png";
+const imgAuroLakshmanan2 = "/auro_footer.png";
+const imgImage168 = "/community_check.png";
 
 export function CoachIntro() {
   return (
@@ -13,7 +12,7 @@ export function CoachIntro() {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-br from-pink-600 to-purple-700 rounded-3xl transform rotate-3"></div>
               <img
-                src={imgAuro21}
+                src="/Auro.png?v=1"
                 alt="Auro Lakshmanan"
                 className="relative rounded-3xl w-full object-cover shadow-2xl transform -rotate-1 hover:rotate-0 transition-transform duration-300"
               />
