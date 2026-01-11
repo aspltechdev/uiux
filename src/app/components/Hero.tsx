@@ -1,13 +1,13 @@
-import imgImage167 from "figma:asset/6153791bd042a5e53dde29b9a09660d48b09c024.png";
+import imgImage167 from "../../assets/6153791bd042a5e53dde29b9a09660d48b09c024.png";
 
 export function Hero() {
   return (
     <div className="relative overflow-hidden">
       {/* Logo */}
       <div className="flex justify-center pt-6 pb-4">
-        <img 
-          src={imgImage167} 
-          alt="Logo" 
+        <img
+          src={imgImage167}
+          alt="Logo"
           className="w-24 h-24 md:w-32 md:h-32 object-contain"
         />
       </div>
@@ -51,9 +51,9 @@ export function Hero() {
 
           {/* Join Now Button */}
           <div className="mt-8 flex justify-center">
-            <a 
-              href="https://chat.whatsapp.com/GZ7WWgIZVug0qQAD1LOrw0" 
-              target="_blank" 
+            <a
+              href="https://chat.whatsapp.com/GZ7WWgIZVug0qQAD1LOrw0"
+              target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-gradient-to-r from-yellow-400 to-orange-500 px-8 md:px-12 py-4 md:py-6 rounded-full shadow-2xl hover:shadow-yellow-500/50 transition-all duration-300 transform hover:scale-105"
             >

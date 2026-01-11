@@ -1,4 +1,4 @@
-import imgWorkshop21FlattenedFlattened from "figma:asset/7d6e8de2f03c03f4c94eb559b075c2a7f19a50ff.png";
+import imgWorkshop21FlattenedFlattened from "../../assets/7d6e8de2f03c03f4c94eb559b075c2a7f19a50ff.png";
 
 export function WorkshopDetails() {
   const modules = [
@@ -71,7 +71,7 @@ export function WorkshopDetails() {
             Workshop Details
           </h2>
           <p className="font-['Poppins:Regular',sans-serif] text-lg md:text-xl text-gray-300 max-w-3xl mx-auto">
-            This isn't just another course. It's a complete transformation system that takes you from 
+            This isn't just another course. It's a complete transformation system that takes you from
             <span className="text-pink-400 font-semibold"> interview anxiety to interview confidence</span> in 30 days.
           </p>
         </div>
@@ -80,7 +80,7 @@ export function WorkshopDetails() {
         <div className="mb-12 flex justify-center">
           <div className="relative max-w-2xl w-full">
             <div className="absolute inset-0 bg-gradient-to-r from-pink-600 to-purple-600 rounded-2xl blur-xl opacity-50"></div>
-            <img 
+            <img
               src={imgWorkshop21FlattenedFlattened}
               alt="Workshop"
               className="relative rounded-2xl w-full shadow-2xl"
@@ -95,7 +95,7 @@ export function WorkshopDetails() {
           </h3>
           <div className="grid md:grid-cols-2 gap-6">
             {modules.map((module, index) => (
-              <div 
+              <div
                 key={index}
                 className="bg-gradient-to-br from-pink-600 to-purple-700 rounded-xl p-6 shadow-lg hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300"
               >
@@ -125,10 +125,10 @@ export function WorkshopDetails() {
               Worth ₹15,000 - Yours FREE Today
             </p>
           </div>
-          
+
           <div className="grid md:grid-cols-2 gap-4">
             {bonuses.map((bonus, index) => (
-              <div 
+              <div
                 key={index}
                 className="bg-white/10 backdrop-blur-sm rounded-lg p-4 flex items-center gap-3"
               >
@@ -142,16 +142,16 @@ export function WorkshopDetails() {
 
           <div className="mt-6 text-center">
             <p className="font-['Poppins:Regular',sans-serif] text-white/90 text-sm md:text-base">
-              These bonuses alone are worth more than the entire workshop fee. 
+              These bonuses alone are worth more than the entire workshop fee.
               <span className="block mt-2 text-yellow-200 font-semibold">But they're yours completely FREE when you join today.</span>
             </p>
           </div>
 
           {/* Join Now Button */}
           <div className="mt-8 text-center">
-            <a 
-              href="https://chat.whatsapp.com/GZ7WWgIZVug0qQAD1LOrw0" 
-              target="_blank" 
+            <a
+              href="https://chat.whatsapp.com/GZ7WWgIZVug0qQAD1LOrw0"
+              target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-gradient-to-r from-yellow-400 to-orange-500 px-8 md:px-12 py-4 md:py-6 rounded-full shadow-2xl hover:shadow-yellow-500/50 transition-all duration-300 transform hover:scale-105"
             >

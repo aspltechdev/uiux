@@ -1,4 +1,4 @@
-import imgAuroLakshmanan2 from "figma:asset/b1bd1ef12d511d42be00b38ff116c1ddb9ecbd09.png";
+import imgAuroLakshmanan2 from "../../assets/b1bd1ef12d511d42be00b38ff116c1ddb9ecbd09.png";
 
 export function Footer() {
   return (
@@ -8,14 +8,14 @@ export function Footer() {
         <div className="flex flex-col md:flex-row items-center gap-8 mb-12">
           <div className="flex-shrink-0">
             <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-pink-500 shadow-2xl">
-              <img 
+              <img
                 src={imgAuroLakshmanan2}
                 alt="Auro Lakshmanan"
                 className="w-full h-full object-cover"
               />
             </div>
           </div>
-          
+
           <div className="text-center md:text-left flex-grow">
             <h3 className="font-['Poppins:Bold',sans-serif] text-3xl md:text-4xl lg:text-5xl text-white mb-2">
               Auro Lakshmanan
@@ -26,8 +26,8 @@ export function Footer() {
             <p className="font-['Poppins:Medium',sans-serif] text-base md:text-lg text-gray-300 mb-3">
               UXCoach | UX Design Engineer | Product Designer | Tech Freak | Content Creator
             </p>
-            <a 
-              href="https://www.dementee.com" 
+            <a
+              href="https://www.dementee.com"
               className="font-['Poppins:SemiBold',sans-serif] text-lg text-blue-400 hover:text-blue-300 transition-colors"
             >
               www.dementee.com
@@ -38,7 +38,7 @@ export function Footer() {
         {/* Final Message */}
         <div className="bg-gradient-to-r from-purple-800/30 to-pink-800/30 border border-pink-500/20 rounded-xl p-6 md:p-8 mb-8">
           <p className="font-['Poppins:Medium',sans-serif] text-lg md:text-xl text-white text-center leading-relaxed">
-            "Remember: Success isn't about being the smartest or the most talented. 
+            "Remember: Success isn't about being the smartest or the most talented.
             <span className="block mt-3 text-pink-400 font-semibold">It's about taking action when everyone else is making excuses.</span>
             <span className="block mt-3">See you in the workshop. Let's make your breakthrough happen together."</span>
           </p>

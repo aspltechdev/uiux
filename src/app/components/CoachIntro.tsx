@@ -1,6 +1,6 @@
-import imgAuroLakshmanan2 from "figma:asset/b1bd1ef12d511d42be00b38ff116c1ddb9ecbd09.png";
-import imgAuro21 from "figma:asset/d9dd287d5515a121f90360dd2768c5d50ce72f48.png";
-import imgImage168 from "figma:asset/03dc83262c04edc9390845788bb08208b3be3586.png";
+import imgAuroLakshmanan2 from "../../assets/b1bd1ef12d511d42be00b38ff116c1ddb9ecbd09.png";
+import imgAuro21 from "../../assets/d9dd287d5515a121f90360dd2768c5d50ce72f48.png";
+import imgImage168 from "../../assets/03dc83262c04edc9390845788bb08208b3be3586.png";
 
 export function CoachIntro() {
   return (
@@ -12,7 +12,7 @@ export function CoachIntro() {
           <div className="order-2 md:order-1">
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-br from-pink-600 to-purple-700 rounded-3xl transform rotate-3"></div>
-              <img 
+              <img
                 src={imgAuro21}
                 alt="Auro Lakshmanan"
                 className="relative rounded-3xl w-full object-cover shadow-2xl transform -rotate-1 hover:rotate-0 transition-transform duration-300"
@@ -37,8 +37,8 @@ export function CoachIntro() {
             {/* Emotional Copy */}
             <div className="bg-gradient-to-r from-pink-600/20 to-purple-600/20 border border-pink-500/30 rounded-xl p-6 mb-6">
               <p className="text-white text-base md:text-lg leading-relaxed font-['Poppins:Regular',sans-serif]">
-                "I know exactly how it feels to stare at rejection emails. I've been there. 
-                But here's the truth: <span className="text-yellow-400 font-semibold">You're not failing because you lack talent.</span> 
+                "I know exactly how it feels to stare at rejection emails. I've been there.
+                But here's the truth: <span className="text-yellow-400 font-semibold">You're not failing because you lack talent.</span>
                 You're struggling because nobody taught you how to crack interviews like a pro."
               </p>
             </div>
@@ -57,7 +57,7 @@ export function CoachIntro() {
         {/* Community Stats */}
         <div className="bg-gradient-to-r from-purple-800 to-pink-700 rounded-2xl p-6 md:p-8 shadow-2xl">
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8">
-            <img 
+            <img
               src={imgImage168}
               alt="Community"
               className="w-16 h-16 md:w-20 md:h-20 object-contain"
@@ -71,7 +71,7 @@ export function CoachIntro() {
               </p>
             </div>
           </div>
-          
+
           <div className="mt-6 text-center">
             <p className="text-yellow-300 font-['Poppins:Medium',sans-serif] text-base md:text-lg">
               Join a community that actually cares about your success. These aren't just numbers—
@@ -81,9 +81,9 @@ export function CoachIntro() {
 
           {/* Join Now Button */}
           <div className="mt-8 text-center">
-            <a 
-              href="https://chat.whatsapp.com/GZ7WWgIZVug0qQAD1LOrw0" 
-              target="_blank" 
+            <a
+              href="https://chat.whatsapp.com/GZ7WWgIZVug0qQAD1LOrw0"
+              target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-gradient-to-r from-yellow-400 to-orange-500 px-8 md:px-12 py-4 md:py-6 rounded-full shadow-2xl hover:shadow-yellow-500/50 transition-all duration-300 transform hover:scale-105"
             >
